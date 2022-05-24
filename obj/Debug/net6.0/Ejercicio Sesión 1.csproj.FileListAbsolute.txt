@@ -1,0 +1,27 @@
+C:\Users\dabad\Documents\Work\IconWork\Formación\C#\Ejercicio Sesión 1\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\dabad\Documents\Work\IconWork\Formación\C#\Ejercicio Sesión 1\bin\Debug\net6.0\appsettings.json
+C:\Users\dabad\Documents\Work\IconWork\Formación\C#\Ejercicio Sesión 1\bin\Debug\net6.0\Ejercicio Sesión 1.exe
+C:\Users\dabad\Documents\Work\IconWork\Formación\C#\Ejercicio Sesión 1\bin\Debug\net6.0\Ejercicio Sesión 1.deps.json
+C:\Users\dabad\Documents\Work\IconWork\Formación\C#\Ejercicio Sesión 1\bin\Debug\net6.0\Ejercicio Sesión 1.runtimeconfig.json
+C:\Users\dabad\Documents\Work\IconWork\Formación\C#\Ejercicio Sesión 1\bin\Debug\net6.0\Ejercicio Sesión 1.dll
+C:\Users\dabad\Documents\Work\IconWork\Formación\C#\Ejercicio Sesión 1\bin\Debug\net6.0\Ejercicio Sesión 1.pdb
+C:\Users\dabad\Documents\Work\IconWork\Formación\C#\Ejercicio Sesión 1\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\dabad\Documents\Work\IconWork\Formación\C#\Ejercicio Sesión 1\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\dabad\Documents\Work\IconWork\Formación\C#\Ejercicio Sesión 1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\dabad\Documents\Work\IconWork\Formación\C#\Ejercicio Sesión 1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\dabad\Documents\Work\IconWork\Formación\C#\Ejercicio Sesión 1\obj\Debug\net6.0\Ejercicio Sesión 1.csproj.AssemblyReference.cache
+C:\Users\dabad\Documents\Work\IconWork\Formación\C#\Ejercicio Sesión 1\obj\Debug\net6.0\Ejercicio Sesión 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dabad\Documents\Work\IconWork\Formación\C#\Ejercicio Sesión 1\obj\Debug\net6.0\Ejercicio Sesión 1.AssemblyInfoInputs.cache
+C:\Users\dabad\Documents\Work\IconWork\Formación\C#\Ejercicio Sesión 1\obj\Debug\net6.0\Ejercicio Sesión 1.AssemblyInfo.cs
+C:\Users\dabad\Documents\Work\IconWork\Formación\C#\Ejercicio Sesión 1\obj\Debug\net6.0\Ejercicio Sesión 1.csproj.CoreCompileInputs.cache
+C:\Users\dabad\Documents\Work\IconWork\Formación\C#\Ejercicio Sesión 1\obj\Debug\net6.0\Ejercicio Sesión 1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\dabad\Documents\Work\IconWork\Formación\C#\Ejercicio Sesión 1\obj\Debug\net6.0\Ejercicio Sesión 1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\dabad\Documents\Work\IconWork\Formación\C#\Ejercicio Sesión 1\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\dabad\Documents\Work\IconWork\Formación\C#\Ejercicio Sesión 1\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\dabad\Documents\Work\IconWork\Formación\C#\Ejercicio Sesión 1\obj\Debug\net6.0\scopedcss\bundle\Ejercicio Sesión 1.styles.css
+C:\Users\dabad\Documents\Work\IconWork\Formación\C#\Ejercicio Sesión 1\obj\Debug\net6.0\Ejercicio Sesión 1.csproj.CopyComplete
+C:\Users\dabad\Documents\Work\IconWork\Formación\C#\Ejercicio Sesión 1\obj\Debug\net6.0\Ejercicio Sesión 1.dll
+C:\Users\dabad\Documents\Work\IconWork\Formación\C#\Ejercicio Sesión 1\obj\Debug\net6.0\refint\Ejercicio Sesión 1.dll
+C:\Users\dabad\Documents\Work\IconWork\Formación\C#\Ejercicio Sesión 1\obj\Debug\net6.0\Ejercicio Sesión 1.pdb
+C:\Users\dabad\Documents\Work\IconWork\Formación\C#\Ejercicio Sesión 1\obj\Debug\net6.0\Ejercicio Sesión 1.genruntimeconfig.cache
+C:\Users\dabad\Documents\Work\IconWork\Formación\C#\Ejercicio Sesión 1\obj\Debug\net6.0\ref\Ejercicio Sesión 1.dll
