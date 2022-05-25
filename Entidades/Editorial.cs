@@ -7,5 +7,6 @@ namespace Ejercicio_Sesión_1.Entidades
         [Key]
         public int EditorialId { get; set; }
         public string Nombre { get; set; } //texto no más de 50 caracteres
+        public ICollection<Libro> Libros { get; set; }
     }
 }
