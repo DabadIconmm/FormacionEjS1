@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dabad\\Documents\\Work\\IconWork\\Formación\\C#\\Ejercicio Sesión 1\\Ejercicio Sesión 1.csproj": {}
+    "C:\\Users\\dabad\\Documents\\Work\\IconWork\\Formación\\C#\\Ejercicios\\Sesion1_WebApiBiblioteca\\EjercicioSesión1_DanielAbad\\Ejercicio Sesión 1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dabad\\Documents\\Work\\IconWork\\Formación\\C#\\Ejercicio Sesión 1\\Ejercicio Sesión 1.csproj": {
+    "C:\\Users\\dabad\\Documents\\Work\\IconWork\\Formación\\C#\\Ejercicios\\Sesion1_WebApiBiblioteca\\EjercicioSesión1_DanielAbad\\Ejercicio Sesión 1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dabad\\Documents\\Work\\IconWork\\Formación\\C#\\Ejercicio Sesión 1\\Ejercicio Sesión 1.csproj",
+        "projectUniqueName": "C:\\Users\\dabad\\Documents\\Work\\IconWork\\Formación\\C#\\Ejercicios\\Sesion1_WebApiBiblioteca\\EjercicioSesión1_DanielAbad\\Ejercicio Sesión 1.csproj",
         "projectName": "Ejercicio Sesión 1",
-        "projectPath": "C:\\Users\\dabad\\Documents\\Work\\IconWork\\Formación\\C#\\Ejercicio Sesión 1\\Ejercicio Sesión 1.csproj",
+        "projectPath": "C:\\Users\\dabad\\Documents\\Work\\IconWork\\Formación\\C#\\Ejercicios\\Sesion1_WebApiBiblioteca\\EjercicioSesión1_DanielAbad\\Ejercicio Sesión 1.csproj",
         "packagesPath": "C:\\Users\\dabad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dabad\\Documents\\Work\\IconWork\\Formación\\C#\\Ejercicio Sesión 1\\obj\\",
+        "outputPath": "C:\\Users\\dabad\\Documents\\Work\\IconWork\\Formación\\C#\\Ejercicios\\Sesion1_WebApiBiblioteca\\EjercicioSesión1_DanielAbad\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dabad\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,10 +40,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "EntityFramework": {
-              "target": "Package",
-              "version": "[6.4.4, )"
-            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.0-preview.4.22229.2, )"

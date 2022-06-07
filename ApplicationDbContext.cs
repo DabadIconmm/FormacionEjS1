@@ -1,4 +1,5 @@
 ﻿using Ejercicio_Sesión_1.Entidades;
+using Ejercicio_Sesión_1.Entidades.Seed;
 using Microsoft.EntityFrameworkCore;
 
 namespace Ejercicio_Sesión_1
@@ -16,16 +17,18 @@ namespace Ejercicio_Sesión_1
         {
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Entity<Libro>().HasKey(x => x.LibroId);
+            modelBuilder.Entity<Libro>().HasKey(x => x.Id);
             modelBuilder.Entity<Libro>().Property(x => x.Titulo).HasMaxLength(150);
             modelBuilder.Entity<Libro>().Property(x => x.Paginas).HasMaxLength(10000);
 
-            modelBuilder.Entity<Editorial>().HasKey(x => x.EditorialId);
+            modelBuilder.Entity<Editorial>().HasKey(x => x.Id);
             modelBuilder.Entity<Editorial>().Property(x => x.Nombre).HasMaxLength(50);
+
+            SeedData.Seed(modelBuilder);
 
         }
 
         public DbSet<Libro> Libros { get; set; }
-        public DbSet<Editorial> Editorials { get; set; }
+        public DbSet<Editorial> Editoriales { get; set; }
     }
 }

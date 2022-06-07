@@ -23,28 +23,40 @@ namespace Ejercicio_Sesión_1.Migrations
 
             modelBuilder.Entity("Ejercicio_Sesión_1.Entidades.Editorial", b =>
                 {
-                    b.Property<int>("EditorialId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("EditorialId"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<string>("Nombre")
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
-                    b.HasKey("EditorialId");
+                    b.HasKey("Id");
 
-                    b.ToTable("Editorials");
+                    b.ToTable("Editoriales");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Nombre = "Campbell"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Nombre = "Timunmas"
+                        });
                 });
 
             modelBuilder.Entity("Ejercicio_Sesión_1.Entidades.Libro", b =>
                 {
-                    b.Property<int>("LibroId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("LibroId"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<int>("EditorialId")
                         .HasColumnType("int");
@@ -57,11 +69,83 @@ namespace Ejercicio_Sesión_1.Migrations
                         .HasMaxLength(150)
                         .HasColumnType("nvarchar(150)");
 
-                    b.HasKey("LibroId");
+                    b.HasKey("Id");
 
                     b.HasIndex("EditorialId");
 
                     b.ToTable("Libros");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            EditorialId = 1,
+                            Paginas = 300,
+                            Titulo = "Warhammer"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            EditorialId = 2,
+                            Paginas = 500,
+                            Titulo = "Sherlock"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            EditorialId = 2,
+                            Paginas = 340,
+                            Titulo = "DragonLance"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            EditorialId = 1,
+                            Paginas = 250,
+                            Titulo = "Pesadillas"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            EditorialId = 1,
+                            Paginas = 120,
+                            Titulo = "Wally"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            EditorialId = 1,
+                            Paginas = 200,
+                            Titulo = "NameWind"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            EditorialId = 2,
+                            Paginas = 340,
+                            Titulo = "ManSapience"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            EditorialId = 1,
+                            Paginas = 400,
+                            Titulo = "LunaWolfes"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            EditorialId = 1,
+                            Paginas = 450,
+                            Titulo = "ImperialFists"
+                        },
+                        new
+                        {
+                            Id = 10,
+                            EditorialId = 1,
+                            Paginas = 333,
+                            Titulo = "SpaceWolfes"
+                        });
                 });
 
             modelBuilder.Entity("Ejercicio_Sesión_1.Entidades.Libro", b =>
